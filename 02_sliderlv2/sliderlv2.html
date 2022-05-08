@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./sliderlv2.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="color-display"></div>
+        
+        <div class="main">
+            <div class="slide-container">
+                <h3>RGB</h3>
+                <div class="color-holder">
+                    <h3>Red</h3>
+                    <input type="range" min="0" max="255" value="0" class="rgb-slider" id="red-range">
+                </div>
+                <div class="color-holder">
+                    <h3>Green</h3>
+                    <input type="range" min="0" max="255" value="0" class="rgb-slider" id="green-range">
+                </div>
+                <div class="color-holder">
+                    <h3>Blue</h3>
+                    <input type="range" min="0" max="255" value="0" class="rgb-slider" id="blue-range">
+                </div>
+            </div>
+            <div class="slide-container">
+                <h3>HSL</h3>
+                <div class="color-holder">
+                    <h3>Hue</h3>
+                    <input type="range" min="0" max="360" value="0" class="hsl-slider" id="hue-range">
+                </div>
+                <div class="color-holder">
+                    <h3>Saturation</h3>
+                    <input type="range" min="0" max="100" value="100" class="hsl-slider" id="saturation-range">
+                </div>
+                <div class="color-holder">
+                    <h3>Lightness</h3>
+                    <input type="range" min="0" max="100" value="50" class="hsl-slider" id="lightness-range">
+                </div>
+
+            </div>
+            <div class="slide-container">
+                <h3>HEX</h3>
+                <div class="color-holder">
+                    <h3>Red</h3>
+                    <input type="range" min="0" max="255" value="0" class="hex-slider" id="hex-red">
+                </div>
+                <div class="color-holder">
+                    <h3>Green</h3>
+                    <input type="range" min="0" max="255" value="0" class="hex-slider" id="hex-green">
+                </div>
+                <div class="color-holder">
+                    <h3>Blue</h3>
+                    <input type="range" min="0" max="255" value="0" class="hex-slider" id="hex-blue">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="banner"></div>
+
+    </div>
+
+
+
+    <script src="./sliderlv2.js"></script>
+</body>
+</html>
